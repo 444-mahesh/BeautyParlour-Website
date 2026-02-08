@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lakshmi Blooms Beauty Parlour</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <meta name="description" content="Premium beauty services and products at Glow Up Beauty Parlour - Your one-stop destination for all beauty needs.">
+    <meta name="keywords" content="beauty parlour, premium beauty services, haircuts, facials, nail art, makeup, spa treatments">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.jpg" alt="Lakshmi blooms Beauty Parlour Logo">
+        </div>
+        <nav>
+            <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+                <span>☰</span>
+            </button>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#booking">Booking</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-actions">
+            <div class="cart-container">
+                <button class="cart-icon" aria-label="View cart">
+                    🛒
+                    <span class="cart-count">0</span>
+                </button>
+                <div class="cart-dropdown">
+                    <div class="cart-header">
+                        <h3>Your Cart</h3>
+                        <button class="close-cart" aria-label="Close cart">×</button>
+                    </div>
+                    <div class="cart-items">
+                        <p class="empty-cart">Your cart is empty</p>
+                    </div>
+                    <div class="cart-footer">
+                        <button class="btn btn-primary checkout-btn">Checkout</button>
+                    </div>
+                </div>
+            </div>
+            <button class="theme-toggle" aria-label="Toggle dark mode" aria-pressed="false">
+                <span class="theme-toggle-light">🌞</span>
+                <span class="theme-toggle-dark">🌙</span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="section active">
+            <h1 class="section-title">Welcome to Lakshmi blooms Beauty Parlour</h1>
+            <p class="section-description">Where beauty meets excellence. We offer premium beauty services and products to enhance your natural beauty.</p>
+            
+            <div class="banner">
+                <img src="banner.jpg" alt="Lakshmi blooms Beauty Parlour Banner">
+                <div class="banner-overlay">
+                    <h2>Discover Your Glow</h2>
+                    <p>Experience luxury beauty services tailored for you</p>
+                </div>
+            </div>
+            
+            <div class="container">
+                <div class="services-preview">
+                    <h2 class="mb-30">Our Featured Services</h2>
+                    <div class="services-list">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <img src="hairlogo.jpg" alt="Haircut Icon">
+                            </div>
+                            <h3 class="service-title">Premium Haircuts</h3>
+                            <p class="service-description">Expert stylists to transform your look</p>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <img src="faciallogo.jpg" alt="Facial Icon">
+                            </div>
+                            <h3 class="service-title">Luxury Facials</h3>
+                            <p class="service-description">Revitalize your skin with our treatments</p>
+                        </div>
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <img src="mehndilaogo.jpg" alt="Manicure Icon">
+                            </div>
+                            <h3 class="service-title">Mehndi Design</h3>
+                            <p class="service-description">Beautiful Mehndi  that make a statement</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="shop" class="section">
+            <h2 class="section-title">Premium Beauty Products</h2>
+            <p class="section-description">Discover our carefully selected range of high-quality beauty products to enhance your daily routine.</p>
+            
+            <div class="product-grid">
+                <div class="product-item">
+                    <span class="product-tag">New</span>
+                    <img src="facecream.jpg" alt="Luxury Face Serum" loading="lazy">
+                    <h3 class="product-title">Luxury Face Serum</h3>
+                    <p class="product-price">$49.99</p>
+                    <p class="product-description">Rejuvenating serum with Vitamin C and Hyaluronic Acid for a radiant complexion.</p>
+                    <button class="btn btn-primary">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="Moisturizing.jpg" alt="Moisturizing Cream" loading="lazy">
+                    <h3 class="product-title">Moisturizing Cream</h3>
+                    <p class="product-price">$35.99</p>
+                    <p class="product-description">Hydrating cream suitable for all skin types, enriched with natural ingredients.</p>
+                    <button class="btn btn-primary">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <span class="product-tag">Popular</span>
+                    <img src="OrganicShampoo.jpg" alt="Organic Shampoo" loading="lazy">
+                    <h3 class="product-title">Organic Shampoo</h3>
+                    <p class="product-price">$24.99</p>
+                    <p class="product-description">Gentle cleansing with organic ingredients for healthier, shinier hair.</p>
+                    <button class="btn btn-primary">Add to Cart</button>
+                </div>
+                <div class="product-item">
+                    <img src="MakeupPalette.jpg" alt="Makeup Palette" loading="lazy">
+                    <h3 class="product-title">Makeup Palette</h3>
+                    <p class="product-price">$42.99</p>
+                    <p class="product-description">Professional-grade palette with 12 versatile shades for any occasion.</p>
+                    <button class="btn btn-primary">Add to Cart</button>
+                </div>
+            </div>
+            
+            <div class="text-center mb-30">
+                <button class="btn btn-secondary">View All Products</button>
+            </div>
+        </section>
+
+        <section id="gallery" class="section">
+            <h2 class="section-title">Our Gallery</h2>
+            <p class="section-description">Explore our portfolio of beautiful transformations and stunning results.</p>
+            
+            <div class="gallery-categories">
+                <div class="gallery-category">
+                    <h3>Hair Styling</h3>
+                    <div class="gallery-grid">
+                        <div class="gallery-item">
+                            <img src="hair.jpg" alt="Hair Styling" loading="lazy">
+                            <div class="gallery-overlay">
+                                <div class="gallery-caption">
+                                    <h3>Hair Styling</h3>
+                                    <p>Professional cut and color</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary view-all-btn" data-category="hair-styling">View All</button>
+                </div>
+                <div class="gallery-category">
+                    <h3>Facial Treatment</h3>
+                    <div class="gallery-grid">
+                        <div class="gallery-item">
+                            <img src="facialtreat.jpg" alt="Facial Treatment" loading="lazy">
+                            <div class="gallery-overlay">
+                                <div class="gallery-caption">
+                                    <h3>Facial Treatment</h3>
+                                    <p>Rejuvenating spa experience</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary view-all-btn" data-category="facial-treatment">View All</button>
+                </div>
+                <div class="gallery-category">
+                    <h3>Makeup Artistry</h3>
+                    <div class="gallery-grid">
+                        <div class="gallery-item">
+                            <img src="makeup.jpg" alt="Makeup Artistry" loading="lazy">
+                            <div class="gallery-overlay">
+                                <div class="gallery-caption">
+                                    <h3>Makeup Artistry</h3>
+                                    <p>Perfect makeup for special occasions</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary view-all-btn" data-category="makeup-artistry">View All</button>
+                </div>
+                <div class="gallery-category">
+                    <h3>Mehndi Design</h3>
+                    <div class="gallery-grid">
+                        <div class="gallery-item">
+                            <img src="mehndi.jpg" alt="Mehndi Design" loading="lazy">
+                            <div class="gallery-overlay">
+                                <div class="gallery-caption">
+                                    <h3>Mehndi Design</h3>
+                                    <p>Creative mahndi art </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary view-all-btn" data-category="mehndi-design">View All</button>
+                </div>
+                <div class="gallery-category">
+                    <h3>Bridal Look</h3>
+                    <div class="gallery-grid">
+                        <div class="gallery-item">
+                            <img src="bridal.jpg" alt="Bridal Look" loading="lazy">
+                            <div class="gallery-overlay">
+                                <div class="gallery-caption">
+                                    <h3>Bridal Look</h3>
+                                    <p>Complete bridal beauty transformation</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary view-all-btn" data-category="bridal-look">View All</button>
+                </div>
+                <div class="gallery-category">
+                    <h3>Hair Coloring</h3>
+                    <div class="gallery-grid">
+                        <div class="gallery-item">
+                            <img src="haircolor.jpg" alt="Hair Coloring" loading="lazy">
+                            <div class="gallery-overlay">
+                                <div class="gallery-caption">
+                                    <h3>Hair Coloring</h3>
+                                    <p>Vibrant and long-lasting colors</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary view-all-btn" data-category="hair-coloring">View All</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="booking" class="section">
+            <h2 class="section-title">Book Your Appointment</h2>
+            <p class="section-description">Schedule your service with our expert team and enjoy a personalized beauty experience.</p>
+            
+            <form id="booking-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" class="form-control" placeholder="Your full name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" class="form-control" placeholder="Your email" required>
+                    </div>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" class="form-control" placeholder="Your phone number">
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Service Type</label>
+                        <select id="service" name="service" class="form-control" required>
+                            <option value="" disabled selected>-- Select a service --</option>
+                            <option value="haircut">Haircut & Styling</option>
+                            <option value="coloring">Hair Coloring</option>
+                            <option value="facial">Facial Treatment</option>
+                            <option value="manicure">Manicure & Pedicure</option>
+                            <option value="makeup">Professional Makeup</option>
+                            <option value="spa">Spa Treatment</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="date">Preferred Date</label>
+                        <input type="date" id="date" name="date" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="time">Preferred Time</label>
+                        <input type="time" id="time" name="time" class="form-control" required>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Additional Notes</label>
+                    <textarea id="message" name="message" class="form-control" placeholder="Any special requests or information we should know?"></textarea>
+                </div>
+                
+                <button type="submit" class="btn btn-primary">Book Appointment</button>
+            </form>
+        </section>
+
+        <section id="services" class="section">
+            <h2 class="section-title">Our Premium Services</h2>
+            <p class="section-description">Discover our range of professional beauty services designed to enhance your natural beauty.</p>
+            
+            <div class="services-list">
+                <div class="service-item">
+                    <div class="service-icon">
+                        <img src="hairsev.jpg" alt="Haircut Icon">
+                    </div>
+                    <h3 class="service-title">Haircuts & Styling</h3>
+                    <p class="service-description">Professional haircuts for all styles and ages.</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">
+                        <img src="faceserve.jpg" alt="Facial Icon">
+                    </div>
+                    <h3 class="service-title">Facial Treatments</h3>
+                    <p class="service-description">Rejuvenating facial treatments for healthy skin.</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">
+                        <img src="mani.jpg" alt="Manicure Icon">
+                    </div>
+                    <h3 class="service-title">Manicure & Pedicure</h3>
+                    <p class="service-description">Luxurious nail treatments and creative designs.</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">
+                        <img src="makeupser.jpg" alt="Makeup Icon">
+                    </div>
+                    <h3 class="service-title">Professional Makeup</h3>
+                    <p class="service-description">Flawless makeup for any occasion.</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">
+                        <img src="haircolorser.jpg" alt="Coloring Icon">
+                    </div>
+                    <h3 class="service-title">Hair Coloring</h3>
+                    <p class="service-description">Vibrant, long-lasting hair colors.</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">
+                        <img src="mehndiser.jpg" alt="mehndi Icon">
+                    </div>
+                    <h3 class="service-title">Mehndi</h3>
+                    <p class="service-description">Beautiful mehndi design.</p>
+                </div>
+            </div>
+            
+            <div class="price-info text-center mb-30">
+                <h3>Looking for pricing information?</h3>
+                <button class="btn btn-secondary">View Price List</button>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2 class="section-title">Contact Us</h2>
+            <p class="section-description">Have questions or need assistance? Reach out to our friendly team.</p>
+            
+            <div class="contact-details">
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30671.88886978793!2d80.04974973486329!3d15.708789699999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4a7309418130ef%3A0x76521101e39ad611!2sInkollu%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1713737108789!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <p class="location-text">Inkollu, Andhra Pradesh, India</p>
+                </div>
+                
+                <div class="info">
+                    <h3 class="mb-20">Get in Touch</h3>
+                    
+                    <div class="contact-info-item">
+                        <div class="contact-icon">
+                            <img src="loc.jpg" alt="Location Icon">
+                        </div>
+                        <div class="contact-text">
+                            <p class="contact-label">Our Location</p>
+                            <p>Hanumoji Palem Road Opposite Eye Hosipital Near To Ram mandiram, Inkollu, <b>Andhra Pradesh, 523167, India</b></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info-item">
+                        <div class="contact-icon">
+                            <img src="phone.jpg" alt="Phone Icon">
+                        </div>
+                        <div class="contact-text">
+                            <p class="contact-label">Call Us</p>
+                            <p>+91 9876555 43210</p>
+                            <p>+91 9123466 56789</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info-item">
+                        <div class="contact-icon">
+                            <img src="mail.jpg" alt="Email Icon">
+                        </div>
+                        <div class="contact-text">
+                            <p class="contact-label">Email Us</p>
+                            <p>info@glowupbeauty.com</p>
+                            <p>bookings@glowupbeauty.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-info-item">
+                        <div class="contact-icon">
+                            <img src="clock.jpg" alt="Clock Icon">
+                        </div>
+                        <div class="contact-text">
+                            <p class="contact-label">Opening Hours</p>
+                            <p>Mon - Sat: 9:00 AM - 8:00 PM</p>
+                            <p>Sun: 10:00 AM - 5:00 PM</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="" target="_blank" aria-label="Instagram">
+                            <img src="insta.jpg" alt="Instagram">
+                        </a>
+                        <a href="https://www.facebook.com/share/12JjFPsDEmZ/" target="_blank" aria-label="Facebook">
+                            <img src="facebook.jpg" alt="Facebook">
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section footer-logo">
+                <img src="logo.jpg" alt="Glow Up Beauty Parlour Logo">
+                <p>Enhancing your natural beauty since 2013.</p>
+            </div>
+            <div class="footer-section footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#booking">Booking</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section footer-contact">
+                <h3>Contact Info</h3>
+                <p><strong>Address:</strong>Hanumoji Palem Road Opposite Eye Hosipital Near To Ram mandiram, Inkollu, Andhra Pradesh, 523167, India</p>
+                <p><strong>Phone:</strong> +91 98765 8843210</p>
+                <p><strong>Email:</strong> info@glowupbeauty.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Glow Up Beauty Parlour. All rights reserved. | <a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a></p>
+        </div>
+    </footer>
+</body>
+</html>
